@@ -9,11 +9,6 @@
 
 <url>
   <loc>https://theboozywoozy.github.io/index.html</loc>
-  <image:image>
-<image:loc>http://example.com/image.png</image:loc>
- <image:geo_location>Девушка</image:geo_location>
- </image:image>
-
   <lastmod>2022-11-06T18:24:42+00:00</lastmod>
   <priority>1.00</priority>
 </url>
