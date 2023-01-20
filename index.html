@@ -752,56 +752,29 @@ content="https://secure.example.com/ogp.jpg" />
 	</section>
 	<!-- Footer section end -->
 	
-<div itemscope itemtype = "https://schema.org/Product" >  
-  <span itemprop = "name" > Кардиган" </span> 
-  <img itemprop = "image" src = "img/product/2.jpg"" alt = 'Девушка в кардигане на жёлтом фоне" Кардиган' />    
-  <div itemprop = "Кардиган" 
-    itemscope itemtype = "https://schema.org/AggregateRating" > 
-   Рейтинг <span itemprop = "ratingValue" > 3,5 </span> /5 
-   на основе <span itemprop = "reviewCount" > 11 </span> отзывов клиентов 
+<div itemscope itemtype = "https://schema.org/Restaurant" >  
+  <span itemprop = "name" > Отличная одежда </span> 
+
+  <div itemprop = "aggregateRating" itemscope itemtype = "https://schema.org/AggregateRating" >   
+    <span itemprop = "ratingValue" > 4 ​​звезды </span> - 
+    на основе <span itemprop = "reviewCount" > 250 </span> отзывов 
   </div>
 
-  <div itemprop = "предложения" itemscope itemtype = "https://schema.org/Offer" >   
-
-    <!--цена равна 1000, число, с разделителем тысяч, зависящим от локали.
-    и десятичный знак, а символ $ размечается
-    машиночитаемый код "USD" -->
-    <span itemprop = "priceCurrency" content = "USD" > $ </span><span  
-          itemprop = "цена" content = "1000,00" > 1000,00 </span> 
-
-    <link itemprop = "availability" href = "https://schema.org/InStock" /> В наличии   
+  <div itemprop = "адрес" itemscope itemtype = "https://schema.org/PostalAddress" >   
+    <span itemprop = "streetAddress" > Avtozavodtsev 65 </span> 
+    <span itemprop = "addressLocality" > Miass </span> , 
+    <span itemprop = "addressRegion" > CA </span> <span itemprop = "postalCode" > Chelyabinsk </span>   
   </div>
+  <span itemprop = "телефон" > +79542254322 </span> 
+  <a itemprop = "url" href = "https://theboozywoozy.github.io/index.html" > https://theboozywoozy.github.io/index.html </a>  
 
-  Описание товара:
-  <span itemprop = "description" > Топовая штучка на лето </span>
+  Часы:
+  <meta itemprop = "openingHours" content = "Пн-Сб 11:00-14:30" > Пн-Сб 9:00 - 22:00  
+  <meta itemprop = "openingHours" content = "Пн-Чт 17:00-21:30" > Пн- Чт 9:00-22:00  
+  <meta itemprop = "openingHours" content = "Пт-Сб 17:00-22:00" > Пт-Сб 9:00-22:00  
 
-  Отзывы клиентов:
 
-  <div itemprop = "review" itemscope itemtype = "https://schema.org/Review" >   
-    <span itemprop = "name" > Недовольный клиент </span> - 
-    автор <span itemprop = "author" > Элли </span> , 
-    <meta itemprop = "datePublished" content = "2022-04-01" > 1 апреля 2011 г.  
-    <div itemprop = "reviewRating" itemscope itemtype = "https://schema.org/Rating" >   
-      <meta itemprop = "worstRating" content = "1" >    
-      <span itemprop = "ratingValue" > 1 </span> / 
-      <span itemprop = "bestRating" > 5 </span> звезд 
-    </div>
-    <span itemprop = "reviewBody" > Дырка в кардигане </span>
-  </div>
 
-  <div itemprop = "review" itemscope itemtype = "https://schema.org/Review" >   
-    <span itemprop = "name" > Стоимость покупки </span> - 
-    автор <span itemprop = "author" > Лукас </span> , 
-    <meta itemprop = "datePublished" content = "2012-03-25" > 25 марта 2011 г.  
-    <div itemprop = "reviewRating" itemscope itemtype = "https://schema.org/Rating" >   
-      <meta itemprop = "worstRating" content = "1" />    
-      <span itemprop = "ratingValue" > 4 ​​</span> / 
-      <span itemprop = "bestRating" > 5 </span> звезд 
-    </div>
-    <span itemprop = "reviewBody" > Отличная кардиган за такую ​​цену. Он маленький и 
-    подходит к моей фигуре. </span>
-  </div>
-  ...
 </div>
 
 
