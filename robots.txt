@@ -5,4 +5,5 @@ Allow: /
 Allow: /img/
 Sitemap: https://theboozywoozy.github.io/5255125_8.xml
 Sitemap: https://theboozywoozy.github.io/sitemap.xml
+Sitemap: https://theboozywoozy.github.io/image-sitemap.xml
 Host: https://theboozywoozy.github.io/index.html
