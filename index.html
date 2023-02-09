@@ -782,10 +782,20 @@ content="https://secure.example.com/ogp.jpg" />
 <h1 class="mt-12 mb-8 px-6 text-center text-lg md:text-2xl font-semibold">
   Dribbble inspired design
 </h1>
-
-<div class="flex flex-wrap gap-5 justify-center max-w-5xl mx-auto px-6">
+	
+	
+<div itemscope itemtype="http://schema.org/ImageObject">
+  <h2 itemprop="name">Винни-Пух</h2>
+  <img src=​"vinni.jpg" itemprop="contentUrl" />
+  <span itemprop="description">Винни-Пух залезает на дерево.</span>
+</div>
+	
+	
+<div class="flex flex-wrap gap-5 justify-center max-w-5xl mx-auto px-6" itemscope itemtype="http://schema.org/ImageObject>
+	<h2 itemprop="name">Девушка в розовом</h2>											    
   <a data-fancybox="gallery" href="./img/product/Девушка в розовом.jpg" alt="Девушка в розовом" title="Красивая девушка в розовом прекрасном платье">
-    <img class="rounded" src="./img/product/Девушка в розовом.jpg" width="300px" height="400px" alt="Девушка в розовом" title="Красивая девушка в розовом прекрасном платье">
+    <img class="rounded" src="./img/product/Девушка в розовом.jpg" width="300px" height="400px" alt="Девушка в розовом" title="Красивая девушка в розовом прекрасном платье" itemprop="contentUrl">
+    <span itemprop="description">Девушка в розовом позирует на камеру.</span>
   </a>
   <a data-fancybox="gallery" href="./img/product/Девушка в зебру.jpg" alt="Девушка в зебру" title="Обоятельная девушка в полосатом платье ">
     <img class="rounded" src="./img/product/Девушка в зебру.jpg" width="300px" height="400px" alt="Девушка в зебру" title="Обоятельная девушка в полосатом платье ">
