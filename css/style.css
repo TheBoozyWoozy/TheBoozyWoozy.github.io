@@ -152,7 +152,10 @@ a[data-fancybox] img {
 .is-nav-selected .fancybox__thumb::after {
   display: none;
 }
-
+.rounden{
+	width:300px;
+	height:400px;
+}
 
 
 
