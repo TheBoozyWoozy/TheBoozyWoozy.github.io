@@ -106,6 +106,8 @@ a[data-fancybox] img {
 
   --carousel-button-svg-stroke-width: 1.5;
   --carousel-button-svg-filter: none;
+	widt:300px;
+	height:400px
 }
 
 .carousel__button.is-close {
